@@ -28,7 +28,7 @@
 .user-profile {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 60vh;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -50,6 +50,5 @@
   }
   #update {
     width: 20vmax;
-    margin-bottom:1.5vmax;
   }
 }
