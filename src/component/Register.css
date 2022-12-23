@@ -1,0 +1,146 @@
+.signup-container {
+  padding: 5vmax;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-container > form {
+  border: 1px solid rgb(58, 192, 209);
+  border-radius: 10px;
+  height: 60vh;
+  padding: 2vmax;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  width: 55vw;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+input {
+  width: 15vmax;
+  height: 3vmax;
+  border-radius: 5px;
+  border: 1px solid rgb(54, 51, 51);
+  text-align: center;
+  font-size: 1.2vmax;
+  font-weight: 500;
+}
+
+#submit:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: rgb(46, 209, 141);
+}
+
+button {
+  border: 1px solid rgb(54, 51, 51);
+  border-radius: 5px;
+  background-color: rgb(31, 15, 175);
+  color: white;
+  border: none;
+  width: 10vmax;
+  height: 3vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 1.2vmax;
+}
+input[type='radio'] {
+  border: 1px solid;
+  width: 100%;
+  height: 1.3em;
+  cursor: pointer;
+}
+.radiodiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35vmax;
+}
+
+#birth {
+  font-size: 1.8vmax;
+  font-weight: 500;
+  margin-bottom: 1vmax;
+}
+#birthday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+button:hover {
+  background-color: rgb(230, 158, 51);
+}
+
+.radio {
+  cursor: pointer;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.signup-subcontainer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.signup-subcontainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+  .signup {
+    width: 65vw;
+  }
+
+  .radiodiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    width: 16vmax;
+    font-size: 1.5vmax;
+    font-weight: 500;
+  }
+  button {
+    font-size: 1.5vmax;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .signup-container {
+    padding: 5vmax;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signup-container > form {
+    height: 100vh;
+    padding: 0vmax;
+  }
+  .signup-subcontainer2 {
+    justify-content: space-around;
+    align-items: center;
+    height: 43vh;
+  }
+}

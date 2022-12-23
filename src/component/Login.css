@@ -1,0 +1,66 @@
+.sign-container {
+  padding: 5vmax;
+  height: 78vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vmax;
+  height: 25vmax;
+  border: 1px solid rgb(58, 192, 209);
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+input {
+  width: 15vmax;
+  height: 3vmax;
+  border-radius: 5px;
+  border: 1px solid rgb(54, 51, 51);
+  text-align: center;
+  font-size: 1.2vmax;
+  font-weight: 500;
+}
+
+#submit:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: rgb(46, 209, 141);
+}
+
+button {
+  border-radius: 5px;
+  background-color: rgb(31, 15, 175);
+  border: none;
+  width: 10vmax;
+  height: 3vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 1.2vmax;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(230, 158, 51);
+}
+
+@media screen and (max-width: 800px) {
+  .sign-container > form {
+    width: 30vmax;
+    height: 35vmax;
+  }
+  input {
+    width: 22vmax;
+    font-size: 1.7vmax;
+  }
+  button {
+    width: 14vmax;
+    height: 3.6vmax;
+    font-size: 2.1vmax;
+  }
+}
